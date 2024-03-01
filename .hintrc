@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "user-select",
+          "scale",
+          "-webkit-tap-highlight-color"
+        ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "css-prefix-order": "off"
+  }
+}

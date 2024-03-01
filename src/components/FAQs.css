@@ -1,0 +1,19 @@
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion-item {
+  margin: 5px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.accordion-header .accordion-button {
+  background-color: #1abc9c;
+  color: white;
+  font-size: 17px;
+}
+
+.accordion-header .accordion-button.collapsed {
+  background-color: white;
+  color: midnightblue;
+}

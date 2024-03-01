@@ -1,0 +1,130 @@
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+.btn {
+  border: 1px solid #1abc9c;
+  /* border: none; */
+}
+
+.btn:hover {
+  background-color: #1ba186 !important;
+  border: 1px solid #1ba186 !important;
+}
+/* ########## NavBar ############## */
+
+.navbar-logo {
+  color: #149279;
+}
+.logo {
+  width: 150px;
+}
+
+li {
+  position: relative;
+  /* padding: 15px 0; */
+}
+
+.nav-item a {
+  padding: 15px 20px;
+  position: relative;
+}
+.nav-item a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #149279;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-item .nav-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.nav-item .active {
+  color: #149279 !important;
+}
+
+/* ############ Hero Section ####### */
+
+#hero-img {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-container {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.523);
+}
+
+/* ############ Hero Section2 ####### */
+
+#hero-img2 {
+  height: 70vh;
+  background-color: #149279;
+}
+
+#hero-container2 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #149279dd;
+}
+
+.big-circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  bottom: 80%;
+  right: 60%;
+  transform: translate(-40%, 38%);
+}
+
+.big-circle:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
+
+.square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  bottom: 20%;
+  left: 90%;
+  transform: translate(-40%, 38%);
+}
+
+.square:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+  top: calc(50% - 70px);
+  left: calc(50% - 70px);
+}
+
+.square2 {
+  /* background: linear-gradient(to bottom, #1cd4af, #159b80); */
+  top: 10%;
+  left: 87%;
+  transform: rotate(270deg);
+}
