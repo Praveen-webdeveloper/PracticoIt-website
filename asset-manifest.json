@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PracticoIt-website/static/css/main.28f93326.css",
+    "main.js": "/PracticoIt-website/static/js/main.27a7515f.js",
+    "static/media/faqs.jpg": "/PracticoIt-website/static/media/faqs.c83819fc81415bca04ff.jpg",
+    "static/media/logo.png": "/PracticoIt-website/static/media/logo.04d515e1b3181acab3fe.png",
+    "index.html": "/PracticoIt-website/index.html",
+    "main.28f93326.css.map": "/PracticoIt-website/static/css/main.28f93326.css.map",
+    "main.27a7515f.js.map": "/PracticoIt-website/static/js/main.27a7515f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28f93326.css",
+    "static/js/main.27a7515f.js"
+  ]
+}
